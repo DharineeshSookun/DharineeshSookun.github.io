@@ -1,0 +1,30 @@
+body {
+  background-image: url('assets/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.container {
+  /* Make the container the positioning reference for the image */
+  position: relative;
+  width: 500px;
+  height: 300px;
+}
+
+.positioned-image {
+  position: absolute;
+  /* Position the image 20 pixels from the top and 50 pixels from the left of the container */
+  top: 20px;
+  left: 50px;
+  width: 400px; /* Optional: adjust image size */
+}
+
+.maintext {
+  font-family: Tahoma, sans-serif;
+  color: #FFFFFF;
+  padding-left: 10vw;
+  font-size: 20px;
+  line-height: 80%;
+}
